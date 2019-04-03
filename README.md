@@ -27,3 +27,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## 指令 -- directive
+```
+/directives
+
+/views/Directive.vue
+```

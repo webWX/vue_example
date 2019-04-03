@@ -16,14 +16,13 @@
         <div v-else-if="num < 10">5 &lt; num &lt; 10</div>
         <div v-else>num &gt; 10</div>
 
-        <div v-for="item in arr">{{ item }}</div>
+        <div v-for="item in arr" :key="item">{{ item }}</div>
 
         <button @click="alert">按钮</button>
 
         <a :href="url">https://www.baidu.com</a>
 
         <div v-pre>{{ msg }}</div>
-
 
         <HelloWorld v-slot:item></HelloWorld>
 
